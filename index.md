@@ -13,7 +13,7 @@ The present value of any Cash Flow generating asset is the value of all future c
 
 In its simplest form, where we expect the cash flow (CF) to grow at the same rate for ever (g), the present value (PV) is calculated with below perpetuity formula.
 
- $$PV = \frac{CF * (1+g)}{(r-g)}$$
+$$PV = \frac{CF * (1+g)}{(r-g)}$$
 
 When trying to value a company based on its future cash flows, we can either look at it through the lenses of all capital providers (equity and debt providers) and we would use the FCFF (Free Cash Flow to the Firm) as the measure of cash flow (CF), or we could look at it purely as an Equity investor and we would use the FCFE (Free Cash Flow to Equity) as our measure of CF.
 
@@ -23,28 +23,28 @@ If we want to estimate the value of Equity directly, we would therefore use the 
 
 As the Market Capitalization (MC) (numerator in the PE ratio), is the aggregate market estimation of the value of Equity, we can rewrite the above formula as follows:
 
-$MC = \frac{FCFE*(1 + g)}{(r - g)}$<br><br>
+$$MC = \frac{FCFE*(1 + g)}{(r - g)}$$<br><br>
 
 FCFE can be rewritten as:<br><br>
 
-$MC = \frac{(NetIncome+DA-CAPEX-deltaWC-NetDebtRepayment)*(1 + g)}{(r - g)}$<br><br>
+$$MC = \frac{(NetIncome+DA-CAPEX-deltaWC-NetDebtRepayment)*(1 + g)}{(r - g)}$$<br><br>
 
 
 Re-writing the numerator relative to Net Income gives us:<br><br>
 
-$MC = \frac{NetIncome*(1+\frac{DA}{Net Income}-\frac{CAPEX}{Net Income}-\frac{deltaWC}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}$<br>
+$$MC = \frac{NetIncome*(1+\frac{DA}{Net Income}-\frac{CAPEX}{Net Income}-\frac{deltaWC}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}$$<br>
 
-$MC = \frac{NetIncome*(1-\frac{CAPEX - DA + deltaWC}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}$<br>
+$$MC = \frac{NetIncome*(1-\frac{CAPEX - DA + deltaWC}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}$$<br>
 
-$MC = \frac{NetIncome*(1-\frac{reInvestment}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}$<br><br>
+$$MC = \frac{NetIncome*(1-\frac{reInvestment}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}$$<br><br>
 
 Deviding both sides by the Net Income (Earnings), gives us the Price to Earnings ratio:<br><br>
-$\frac{Price}{Earnings}=\frac{MC}{NetIncome}= \frac{\frac{NetIncome*(1-\frac{reInvestment}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}}{Net Income}$<br>
+$$\frac{Price}{Earnings}=\frac{MC}{NetIncome}= \frac{\frac{NetIncome*(1-\frac{reInvestment}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}}{Net Income}$$<br>
 
-$\frac{Price}{Earnings}=\frac{MC}{NetIncome}= \frac{(1-\frac{reInvestment}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}$<br><br>
+$$\frac{Price}{Earnings}=\frac{MC}{NetIncome}= \frac{(1-\frac{reInvestment}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{(r - g)}$$<br><br>
 
 Finally converting the discount rate r to the cost of equity gives us:<br><br>
-$\frac{Price}{Earnings}=\frac{MC}{NetIncome}= \frac{(1-\frac{reInvestment}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{((rf+\beta*ERP) - g)}$<br><br>
+$$\frac{Price}{Earnings}=\frac{MC}{NetIncome}= \frac{(1-\frac{reInvestment}{Net Income}-\frac{NetDebtRepayment}{Net Income})*(1 + g)}{((rf+\beta*ERP) - g)}$$<br><br>
 
 This formula gives us some understanding of what we would expect the fundamental drivers of the PE ratio to be.
 The fundamental drivers of the P/E ratio are
